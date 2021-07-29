@@ -1,0 +1,46 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    height: 525px;
+    width: 525px;
+    background-color: darkgray;
+  }
+  
+  .board div{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+  }
+  
+  .wall{
+    background-color: black;
+  }
+
+  .empty{
+    background-color: darkgray;
+  }
+
+  /*.visited{
+    background-color: blueviolet; //debug
+  }*/
+ 
+
+  .path{
+    background-color: rgb(11, 245, 11);
+  } 
+
+  .ghost{
+    background-color: red;
+  }
+
+  .target{
+    background-color: yellow;
+  }
+
+  
+
+  body{
+    background-color: white;
+  }
